@@ -1,0 +1,81 @@
+:root {
+  --c-primary: #21243d;
+  --c-secondary: #ff6464;
+  --c-natural: #fff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding-top: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--c-natural);
+  color: var(--c-natural);
+}
+
+.game {
+  width: 1200px;
+  height: 700px;
+  margin: 0 auto;
+  background-color: darkslategray;
+  border-radius: 10px;
+}
+
+.home-screen {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-screen {
+  padding-top: 40px;
+  display: none;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.end-screen {
+  padding-top: 250px;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.button {
+  width: 100%;
+  height: 100%;
+  max-width: 250px;
+  max-height: 100px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 0;
+  cursor: pointer;
+  filter: drop-shadow(rgba(0, 0, 0, 0.3) 8px 8px 2px);
+}
+
+.card-board {
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
+  gap: 16px;
+  box-sizing: border-box;
+}
+
+.card {
+  background-color: antiquewhite;
+  height: 200px;
+  border-radius: 10px;
+  cursor: pointer;
+  background-image: none;
+  background-size: cover;
+  filter: drop-shadow(rgba(0, 0, 0, 0.3) 8px 8px 2px);
+}
