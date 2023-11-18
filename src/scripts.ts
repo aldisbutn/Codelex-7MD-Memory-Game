@@ -205,3 +205,4 @@ resetButtons.forEach((resetButton) => {
     endScreen.style.display = "none";
   });
 });
+

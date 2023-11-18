@@ -61,6 +61,11 @@ body {
   border: 0;
   cursor: pointer;
   filter: drop-shadow(rgba(0, 0, 0, 0.3) 8px 8px 2px);
+
+  &:hover {
+    background-color: #fff;
+    filter: drop-shadow(rgba(0, 0, 0, 0.4) 8px 8px 2px);
+  }
 }
 
 .card-board {
@@ -78,4 +83,8 @@ body {
   background-image: none;
   background-size: cover;
   filter: drop-shadow(rgba(0, 0, 0, 0.3) 8px 8px 2px);
+
+  &:hover {
+    filter: drop-shadow(rgba(0, 0, 0, 0.4) 8px 8px 2px);
+  }
 }
